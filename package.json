@@ -3,13 +3,19 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small library that converts Salesforce Platform Events converted into a Readable Stream in Object Mode.",
+  "keywords": [
+    "salesforce",
+    "events",
+    "stream",
+    "readable"
+  ],
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js"
   },
-  "author": "Alex Tennant <hello@adtennant.co.uk>",
+  "author": "Alex Tennant <alex@adtennant.co.uk>",
   "license": "MIT",
   "repository": "https://github.com/adtennant/platform-event-stream",
   "dependencies": {
