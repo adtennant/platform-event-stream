@@ -1,0 +1,32 @@
+{
+  "name": "platform-event-stream",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "version": "1.0.0",
+  "description": "A small library that converts Salesforce Platform Events converted into a Readable Stream in Object Mode.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js"
+  },
+  "author": "Alex Tennant <hello@adtennant.co.uk>",
+  "license": "MIT",
+  "repository": "https://github.com/adtennant/platform-event-stream",
+  "dependencies": {
+    "nforce": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "max-len": 0
+    }
+  }
+}
