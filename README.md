@@ -1,6 +1,6 @@
 # Platform Event Stream
 
-![npm](https://img.shields.io/npm/v/npm.svg) ![license](https://img.shields.io/npm/l/node-readme.svg)
+![npm](https://img.shields.io/npm/v/npm.svg) ![license](https://img.shields.io/npm/l/platform-event-stream.svg)
 
 A small library that converts [Salesforce Platform Events](https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_intro.htm) converted into a [Readable Stream](https://nodejs.org/dist/latest-v6.x/docs/api/stream.html#stream_readable_streams) in [Object Mode](https://nodejs.org/api/stream.html#stream_object_mode).
 
